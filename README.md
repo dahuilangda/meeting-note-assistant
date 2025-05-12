@@ -27,9 +27,9 @@ conda activate meeting_assistant
 # Install dependencies
 pip install torch torchvision torchaudio \
     -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
-pip install funasr openai \
+pip install funasr openai streamlit streamlit-ace \
     -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
-mamba install fastapi uvicorn python-dotenv streamlit streamlit-ace requests librosa ffmpeg onnxruntime -c conda-forge -y
+mamba install fastapi uvicorn python-dotenv requests librosa ffmpeg onnxruntime -c conda-forge -y
 ```
 
 ## ⚙️ Configuration
